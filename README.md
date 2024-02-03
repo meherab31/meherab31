@@ -4,8 +4,8 @@
 - 💞️ I’m looking to collaborate on any MVC based project
 - 📫 How to reach me 
 - - meherabhassan42@gmail.com
-- -www.facebook.com/meherabhassan42
-- -www.linkedin.com/in/meherabhassan
+- - www.facebook.com/meherabhassan42
+- - www.linkedin.com/in/meherabhassan
 
 <!---
 meherab31/meherab31 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
