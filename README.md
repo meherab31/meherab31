@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on PHP-Laravel, HTML, CSS, Javascript And Cyber Security etc<br>👯 I’m looking to collaborate on Laravel Projects<br>🤝 I’m looking for help with Full Stack Development<br>🌱 I’m currently learning React.js<br>💬 Ask me about anything related to tech<br>⚡ Fun fact, I'm 24 hour alive
+🔭 I’m currently working on PHP-Laravel, HTML, CSS, Javascript, Vue.JS And Cyber Security etc<br>👯 I’m looking to collaborate on Laravel Projects<br>🤝 I’m looking for help with Full Stack Development<br>🌱 I’m currently learning React.js<br>💬 Ask me about anything related to tech<br>⚡ Fun fact, I'm 24 hour alive
 
 
 ## 🌐 Socials:
