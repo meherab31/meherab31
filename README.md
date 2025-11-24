@@ -19,7 +19,7 @@
 ![](https://github-profile-trophy.vercel.app/?username=meherab31&theme=gitdimmed&no-frame=false&no-bg=true&margin-w=4)
 
 ## 🕒 Wakatime Stats
-![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=meherab31&theme=vue-dark)
+![WakaTime](https://wakatime.com/share/@48da3754-fab0-4eaf-aa3f-f31cb82a9e19/ce3f8b37-a56f-4c16-8dfe-e3d449f10859.svg)
 
 ## 🌐 GitHub Languages Radar
 ![Languages Radar](https://github-readme-stats.vercel.app/api/top-langs/?username=meherab31&layout=donut&theme=vue-dark)
