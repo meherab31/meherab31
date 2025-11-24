@@ -12,9 +12,7 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=meherab31&theme=vue-dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=meherab31&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=10)
 
-## 📈 GitHub Activity Graph
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=meherab31&theme=vue-dark&hide_border=false)
-
+## 🕒 Wakatime Stats
 <p align="center">
   <a href="https://wakatime.com">
     <img src="https://wakatime.com/share/@48da3754-fab0-4eaf-aa3f-f31cb82a9e19/4123a7a8-cd13-4e0a-859c-1a62137c5361.png" width="45%" />
