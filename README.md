@@ -18,14 +18,6 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=meherab31&theme=gitdimmed&no-frame=false&no-bg=true&margin-w=4)
 
-## 🕒 WakaTime Stats
-
-<p align="center">
-  <img src="https://wakatime.com/share/@48da3754-fab0-4eaf-aa3f-f31cb82a9e19/ce3f8b37-a56f-4c16-8dfe-e3d449f10859.svg" width="45%" />
-  <img src="https://wakatime.com/share/@48da3754-fab0-4eaf-aa3f-f31cb82a9e19/2df2037d-0c0a-4c60-912f-58e4eaa099f3.png" width="45%" />
-</p>
-
-
 ## 🌐 GitHub Languages Radar
 ![Languages Radar](https://github-readme-stats.vercel.app/api/top-langs/?username=meherab31&layout=donut&theme=vue-dark)
 
@@ -34,5 +26,117 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=meherab31&icon=2&color=1)](https://visitcount.itsvg.in)
+
+<style>
+.waka-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.waka-box {
+    width: 320px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+}
+
+.waka-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.waka-bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.lang-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.lang-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.lang-name {
+    flex: 1;
+}
+
+.lang-percent {
+    font-weight: bold;
+}
+</style>
+
+<div class="waka-container">
+    
+    <!-- LEFT: Coding Activity -->
+    <div class="waka-box" id="waka-activity">
+        <div class="waka-title">📅 Last 7 Days Activity</div>
+        <div id="activity-list">Loading...</div>
+    </div>
+
+    <!-- RIGHT: Languages -->
+    <div class="waka-box" id="waka-languages">
+        <div class="waka-title">💻 Language Breakdown</div>
+        <div id="language-list">Loading...</div>
+    </div>
+
+</div>
+
+<script>
+// 1️⃣ Fetch Daily Data
+$.ajax({
+    type: 'GET',
+    url: 'https://wakatime.com/share/@48da3754-fab0-4eaf-aa3f-f31cb82a9e19/3e133e65-d5eb-4e4d-a43c-c3fa8f33eb8c.json',
+    dataType: 'jsonp',
+    success: function(response) {
+        let html = "";
+        response.data.forEach(day => {
+            html += `
+                <div>
+                    <strong>${day.range.date}</strong>
+                    <div class="waka-bar" style="width:${day.grand_total.decimal * 12}%; background:#58A6FF"></div>
+                    <small>${day.grand_total.text}</small>
+                </div>
+                <br>
+            `;
+        });
+        $("#activity-list").html(html);
+    }
+});
+
+// 2️⃣ Fetch Languages
+$.ajax({
+    type: 'GET',
+    url: 'https://wakatime.com/share/@48da3754-fab0-4eaf-aa3f-f31cb82a9e19/411e8a45-cf80-4332-8277-f6d702af5b8e.json',
+    dataType: 'jsonp',
+    success: function(response) {
+        let html = "";
+        response.data.forEach(lang => {
+            html += `
+                <div class="lang-row">
+                    <div class="lang-color" style="background:${lang.color}"></div>
+                    <div class="lang-name">${lang.name}</div>
+                    <div class="lang-percent">${lang.percent}%</div>
+                </div>
+            `;
+        });
+        $("#language-list").html(html);
+    }
+});
+</script>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
